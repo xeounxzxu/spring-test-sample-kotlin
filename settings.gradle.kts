@@ -1,32 +1,10 @@
-rootProject.name = "kotlin-core"
+rootProject.name = "spring-test-sample-kotlin"
 
-include(
-    ":core:basic",
-    ":core:dynamicbean",
-    ":core:virtualthread",
-    ":core:samplecode",
-)
-
-include(
-    ":r2dbc",
-    ":r2dbc:callback",
-    ":r2dbc:data",
-)
 
 include(
     ":test",
     ":test:kotest",
     ":test:apidocs",
-)
-
-include(
-    ":querydsl:openfeign",
-)
-
-include(
-    ":components",
-    ":components:yamlreader",
-    ":components:jpa"
 )
 
 pluginManagement {
